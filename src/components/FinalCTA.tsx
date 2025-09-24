@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, TrendingUp } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const FinalCTA = () => {
   return (
@@ -33,12 +32,10 @@ const FinalCTA = () => {
             </div>
           </div>
           
-          <Link to="/questionnaire">
-            <Button variant="cta" size="lg" className="text-xl px-12 py-6 h-auto">
-              Get My Free Personalized Report Now
-              <ArrowRight className="ml-3 h-6 w-6" />
-            </Button>
-          </Link>
+          <Button variant="cta" size="lg" className="text-xl px-12 py-6 h-auto">
+            Get My Free Personalized Report Now
+            <ArrowRight className="ml-3 h-6 w-6" />
+          </Button>
           
           <p className="text-white/70 text-sm mt-6">
             No credit card required • 100% free analysis • Results in minutes
